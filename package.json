@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-theme-parks",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "MCP Server for ThemeParks.wiki",
   "type": "module",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
     "api"
   ],
   "author": "FeedMob",
-  "homepage": "",
+  "homepage": "https://github.com/MasonMao-dev/mcp-server-theme-parks",
   "license": "MIT",
   "scripts": {
     "build": "tsc",

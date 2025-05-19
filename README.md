@@ -1,5 +1,7 @@
 ## mcp-server-theme-parks
 
+MCP Server for themeparks.wiki
+
 ### MCP Server Config
 
 ```
