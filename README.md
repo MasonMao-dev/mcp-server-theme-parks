@@ -7,7 +7,7 @@
   "mcpServers": {
     "mcp-server-theme-parks": {
       "command": "npx",
-      "args": ["mcp-server-theme-parks"],
+      "args": ["-y", "mcp-server-theme-parks"],
       "env": {
         "THEMEPARKS_API_BASE_URL": "https://api.themeparks.wiki/v1"
       }

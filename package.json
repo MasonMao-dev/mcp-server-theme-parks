@@ -1,9 +1,16 @@
 {
   "name": "mcp-server-theme-parks",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "MCP Server for ThemeParks.wiki",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "mcp-server-theme-parks": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "keywords": [
     "mcp",
     "park",
@@ -12,13 +19,14 @@
   "author": "FeedMob",
   "homepage": "",
   "license": "MIT",
-  "bin": {
-    "mcp-server-theme-parks": "./dist/index.js"
-  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "tsc && node dist/index.js"
+    "dev": "ts-node-dev --esm src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.11.0",
