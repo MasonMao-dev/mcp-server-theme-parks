@@ -18,26 +18,7 @@ This project provides a Model-Context-Protocol (MCP) server that interfaces with
     npm install
     ```
 
-3.  **Set up environment variables:**
-    Create a `.env` file in the root of the project and add the API base URL:
-    ```env
-    THEMEPARKS_API_BASE_URL="https://api.themeparks.wiki/v1"
-    ```
-    Alternatively, you can set this environment variable directly in your shell or when running the application.
-
 ## Running the Server
-
-### Production
-```bash
-npm start
-```
-This will compile the TypeScript code (if not already built) and run the server using Node.
-
-### Development
-For development with live reloading:
-```bash
-npm run dev
-```
 
 ### MCP Server Configuration (for MCP clients)
 
