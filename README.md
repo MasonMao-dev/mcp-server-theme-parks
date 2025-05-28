@@ -2,6 +2,8 @@
 
 This project provides a Model-Context-Protocol (MCP) server that interfaces with the [ThemeParks.wiki API](https://api.themeparks.wiki/v1). It allows users to access real-time and static data for theme parks, including destinations, attractions, wait times, and schedules.
 
+![Avatar](./assets/avatar.png "Avatar")
+
 ## Prerequisites
 
 *   Node.js >= 18
